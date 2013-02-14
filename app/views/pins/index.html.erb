@@ -1,0 +1,19 @@
+<h1>Listing pins</h1>
+
+<table class= "table table-striped">
+  <tr>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% render @pins %>
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Pin', new_pin_path %>
